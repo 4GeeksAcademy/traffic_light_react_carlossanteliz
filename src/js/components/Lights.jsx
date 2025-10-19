@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Lights = () => {
-	const [selectedColor, setSelectedColor] = useState("yellow")
+	const [selectedColor, setSelectedColor] = useState("red")
 	return (
 
 		<div className="traffic-light-wrapper">
